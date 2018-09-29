@@ -1,0 +1,108 @@
+body{
+  margin: 0 auto;
+  width: 100%;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  text-align: left;
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  margin: 0;
+  text-align: right;
+  width: 100%;
+  color: #2d3c49;
+  text-transform: uppercase;
+}
+
+.name {
+  margin: 0;
+  font-size: 2em;
+}
+
+.subtitle {
+  font-size: 0.7em;
+}
+
+.line_separator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.learner {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.featured_work {
+  width: 100%;
+  color: #7d97ad;
+  margin-bottom: 10px;
+}
+
+.work {
+  width: 100%;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  box-sizing: border-box;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  color: #2d3c49;
+}
+
+.project_image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.project_name {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #2d3c49;
+}
+
+footer {
+  width: 100%;
+  margin:15px;
+  text-align: center;
+}
+
+.copyright {
+  font-size: x-small;
+}
