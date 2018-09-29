@@ -1,0 +1,42 @@
+@media screen and (max-width: 599px) {
+  .logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .featured_work {
+    text-align: center;
+  }
+  .learner {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
